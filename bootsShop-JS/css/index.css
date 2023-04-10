@@ -1,0 +1,104 @@
+body {
+	margin: 0;
+}
+
+nav {
+	width: 100%;
+	height: 47px;
+	background-color: lightgray;
+	display: flex;
+	align-items: center;
+}
+
+nav .long {
+	width: 95%;
+	height: 10px;
+	background-color: ghostwhite;
+	border-radius: 20px;
+}
+
+nav p {
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	margin-right: 5px;
+}
+nav .one {
+	background-color: red;
+	margin-left: 10px;
+}
+nav .two {
+	background-color: yellow;
+}
+nav .three {
+	background-color: green;
+	margin-right: 15px;
+}
+
+.container {
+	width: 950px;
+	margin: auto;
+	margin-top:100px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.container .mainImage img{
+	height: 500px;
+
+}
+
+.container .NotMainImages img {
+	height: 100px;
+}
+
+.container .texts .stars {
+	height: 13px;
+}
+
+.red {
+	color: red;
+	margin-left: 5px;
+}
+.white {
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	border: 1px solid black;
+	cursor: pointer;
+	margin-right: 5px;
+}
+.white:hover {
+	outline: 2px solid red;
+	outline-offset: 1px;
+}
+
+.blue {
+	width: 20px;
+	height: 20px;
+	background-color: #1E47C3;
+	border: 1px solid black;
+	cursor: pointer;
+}
+.blue:hover {
+	outline: 2px solid red;
+	outline-offset: 1px;
+}
+
+.firstSpan {
+	padding: 5px 10px 5px 10px;
+	border: 1px solid grey;
+	margin-right: 3px;
+}
+
+.secondSpan {
+color: white;
+background-color: darkorange;
+padding: 6px 11px 6px 11px;
+}
+
+.thirdSpan {
+padding: 5px 10px 5px 10px;
+border: 1px solid grey;
+}
+
